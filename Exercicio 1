@@ -1,0 +1,15 @@
+﻿string LarguraTerreno, comprimentoTerreno;
+decimal largura, comprimento;
+
+Console.WriteLine("Digite a largura do terreno em metros");
+LarguraTerreno = Console.ReadLine();
+largura = Convert.ToDecimal(LarguraTerreno);
+
+Console.WriteLine("Digite o comprimento o terreno em metros");
+comprimentoTerreno = Console.ReadLine();
+comprimento = Convert.ToDecimal(comprimentoTerreno);
+
+
+comprimento = largura * comprimento;
+
+Console.WriteLine("A área do terreno é: " + comprimento + "metros quadrados");
